@@ -1,0 +1,15 @@
+{
+  "name": "go-svelte-template",
+  "version": "1.0.0",
+  "description": "* Back-End: Gin\r * Front-End: Svelte\r * UI: Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"go run cmd/main.go\" \"cd front-end && npm run dev\" \"cd front-end && npm run watch:style\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
